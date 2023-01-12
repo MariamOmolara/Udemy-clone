@@ -1,0 +1,328 @@
+ *{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+ .container {
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 50px;
+ }
+
+ 
+ .category {
+    font-size: 20px;
+   margin-top: 20px;
+ }
+
+ .button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* padding: 0 2.4rem 0 0; */
+    border: 1px solid #1c1d1f;
+   border-radius: 75px ;
+   padding: 10px;
+   padding-right: 200px;
+   color: black;
+ }
+
+ .search {
+    padding-left: 10px;
+ }
+
+ .cart {
+    font-weight: bolder;
+ }
+ .border {
+    text-decoration: none;
+ }
+
+ .login-button {
+    border: 1px solid black;
+    padding: 20px;
+    font-weight: bolder;
+ }
+
+ .signin-button  {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+ }
+
+ #learner-section {
+    background: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    background-size:contain;
+    margin-right:10px ;
+    margin-left: 10px;
+    padding: 100px;
+    margin-top: 10px;
+ }
+
+ #student-section {
+   padding-left: 60px;
+   margin-bottom: 30px;
+ }
+
+ .container1 {
+    display: flex;
+  
+
+ }
+
+ .card {
+   background: white;
+   text-align: left;
+   position: absolute;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 2.4rem
+ }
+
+ .learn-text {
+    font-size: 3.2rem;
+ }
+
+ .learn-text2 {
+    font-size: 1.6rem;
+ }
+
+ #courses-section {
+    padding: 30px;
+ }
+ .course-text {
+    max-width: 80rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+ }
+
+ .course-textb {
+    margin: 1.6rem 0 0;
+    max-width: 80rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.9rem;
+ }
+
+ .course-text2 {
+    list-style: none;
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-gap: 1.6rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    color: #1c1d1f;
+ }
+
+ .course-textc {
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    margin-top: 20px;
+ }
+
+ .python-button {
+    position: relative;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+    display: inline-flex;
+    min-width: 8rem;
+    padding: 10px;
+    justify-content: center;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: bottom;
+    white-space: nowrap;
+ }
+
+ .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 10px;
+    text-overflow: ellipsis;
+ }
+.card-border {
+   background-color: #1c1d1f;
+    border: 1px solid #d1d7dc;
+    overflow: hidden;
+    position: relative
+}
+
+.card-text {
+   font-weight: 400;
+   line-height: 1.4;
+   font-size: 1.4rem;
+   font-weight: bold;
+   margin-top: 20px;
+}
+ .instructor {
+    text-overflow: ellipsis;
+    white-space: normal;
+    color: #6a6f73;
+ }
+
+ .bestseller {
+   background-color: #eceb98;
+    color: #3d3c0a;
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    white-space: nowrap;
+ }
+
+ .container-sect {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #f7f9fa;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.side-icons {
+   background: #d1d7dc;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.students {
+   margin-top: 70px;
+}
+
+.container-sect {
+   margin-top: 80px;
+   margin-bottom: 80px;
+}
+
+.card-text {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.features-list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.instructor {
+   text-align: center;
+}
+
+.instructors {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+ 
+#container-features {
+   background: #f7f9fa;
+   padding: 100px 50px;
+}
+
+.card-text1 {
+   font-weight: 400;
+   line-height: 1.4;
+   font-size: 1.6rem;
+   font-weight: bold;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.card-text2 {
+   font-weight: 400;
+   line-height: 1.4;
+   font-size: 1.4rem;
+   font-weight: bold;
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
+
+.container-sects {
+   background: #f7f9fa;
+}
+
+.team-text {
+   margin-top: 100px;
+   text-align: center;
+   padding-left: 300px;
+   padding-top: 100px;
+}
+
+#container-sects {
+   padding-bottom: 50px;
+}
+
+
+.instructors-text {
+   margin-bottom: 30px;
+}
+
+.phython-button2 {
+   color: black ;
+}
+
+.business-logo {
+   text-align:left ;
+}
+
+#business-section {
+   margin-bottom: 100px;
+}
+
+footer{
+   background-color: rgba(0, 0, 0, 0.884);
+   color: #fff;
+   padding: 30px;
+}
+.options{
+   display: grid;
+   grid-template-columns: 250px 250px 250px 250px;
+   grid-gap: 10px;   
+}
+.options li{
+   list-style-type: none;
+   font-size: 18px;
+   font-weight: 400;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.sub-footer{
+   display: flex;
+   justify-content: space-between;
+}
+.sub-footer1{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 45px;
+}
+.sub-footer button{
+   width: 140px;
+   height: 40px;
+   border: 1px solid #fff;
+   background-color: transparent;
+   color: #fff;
+   font-size: 18px;
+   margin-top: 5px;
+}
+.sub-footer1 svg{
+   margin-left: 35px;
+}
+.sub-footer1 p{
+   font-size: 15px;
+}
